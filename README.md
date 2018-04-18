@@ -7,9 +7,9 @@ This python code intend to illustrate a scientific paper:
 This code shows a version of a tool in development. 
 It uses a audio low-level feature, the spectral cover, to detect water flow sounds in audio recordings of daily activities. This feature can also be used to detect vacuum cleaner sounds.
 
-It can output:
+It can either output:
  * a .txt file containing the values of the spectral cover,
- * a .txt file containing the values of the minimum of the spectral cover,
+ * a .txt file containing the values of the minimum of the spectral cover.
 
 
 From this outputs, simple thresholds can be used to segment the audio files in different classes: water, vacuum cleaner, other sounds.
@@ -21,19 +21,24 @@ From this outputs, simple thresholds can be used to segment the audio files in d
 
 This code is based on python (tested with python 2.7.12).
 
-Some python package are required:
+The following python package is required:
 
  * [Numpy](http://www.numpy.org/)
+
+Other required packages are normally include in python: 
  * [wave](https://docs.python.org/2/library/wave.html) (to read audio)
- * array, optparse
+ * array
+ * optparse
  
 ## Usage
 
 The following command provides some help on the usage of the code: 
+
 $python computeSC.py -h
 
 The following command run the code with same parameters than in the article \[1\]:
- $python computeSC.py 10-10-06.wav -o sc.out -w 1024 -s 512 -m -d 2 -f min.out -g 1.5 -v
+
+$python computeSC.py 10-10-06.wav -o sc.out -w 1024 -s 512 -m -d 2 -f min.out -g 1.5 -v
 
 
 ## Licence
@@ -47,4 +52,4 @@ Patrice Guyot
     
 Questions, comments and remarks (by emails) would be appreciated.   
     
-Credits: Patrice Guyot
+Credits: If you use this code, please cite the paper \[1\].

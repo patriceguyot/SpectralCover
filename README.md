@@ -25,7 +25,7 @@ The following python package is required:
 
  * [Numpy](http://www.numpy.org/)
 
-Other required packages are normally include in python: 
+Other required packages are normally included in python: 
  * [wave](https://docs.python.org/2/library/wave.html) (to read audio)
  * array
  * optparse

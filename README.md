@@ -8,8 +8,8 @@ This code shows a version of a tool in development.
 It uses a audio low-level feature, the spectral cover, to detect water flow sounds in audio recordings of daily activities. This feature can also be used to detect vacuum cleaner sounds.
 
 It can either output:
- * a .txt file containing the values of the spectral cover,
- * a .txt file containing the values of the minimum of the spectral cover.
+ * a text file containing the values of the spectral cover,
+ * a text file containing the values of the minimum of the spectral cover.
 
 
 From this outputs, simple thresholds can be used to segment the audio files in different classes: water, vacuum cleaner, other sounds.

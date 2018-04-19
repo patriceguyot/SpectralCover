@@ -43,7 +43,7 @@ $python computeSC.py 10-10-06.wav -o sc.out -w 1024 -s 512 -m -d 2 -f min.out -g
 
 ## Licence
 
-[GPL v3] (SpectralCover/LICENSE.txt)
+GPL V 3 - see [LICENSE.txt](https://github.com/patriceguyot/SpectralCover/blob/master/LICENSE.txt) for more info
 
 
 ## Authors
